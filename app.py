@@ -17,7 +17,7 @@ def main():
     page_icon='logo.gif')
     
     selected=option_menu(
-        menu_title="NETSPIRE ANALYSER",
+        menu_title="NETSPIRE ANALYSER"
         options = ["Resume","Selection-Tool"],
         icons=["file-earmark-break","person-bounding-box","person-workspace","gear"],
         menu_icon="emoji-laughing",
@@ -25,6 +25,9 @@ def main():
         orientation="horizontal",)
     
     st.title("AI Resume Analyser")
+    url = "https://netspires.netlify.app/"
+	st.write("🔙 [Go Back](%s)" % url)
+
    
     ###### Code for client side (USER) ######
 

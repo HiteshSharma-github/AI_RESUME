@@ -17,7 +17,7 @@ def main():
     page_icon='logo.gif')
     
     selected=option_menu(
-        menu_title="NETSPIRE ANALYSER"
+        menu_title="NETSPIRE ANALYSER",
         options = ["Resume","Selection-Tool"],
         icons=["file-earmark-break","person-bounding-box","person-workspace","gear"],
         menu_icon="emoji-laughing",

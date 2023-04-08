@@ -25,8 +25,7 @@ def main():
         orientation="horizontal",)
     
     st.title("AI Resume Analyser")
-    url = "https://netspires.netlify.app/"
-    st.write("🔙 [Go Back](%s)" % url)
+ 
 
    
     ###### Code for client side (USER) ######

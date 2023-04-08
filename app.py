@@ -19,7 +19,7 @@ def main():
     
     selected=option_menu(
         menu_title="RUHVSoft LLP",
-        options = ["Resume","Selection-Tool", "About", "Admin"],
+        options = ["Resume","Selection-Tool"],
         icons=["file-earmark-break","person-bounding-box","person-workspace","gear"],
         menu_icon="emoji-laughing",
         default_index=0,

@@ -6,9 +6,8 @@ from streamlit_option_menu import option_menu
 ###### Importing Required User-Defined Modules ######
 
 from user import NormalUser
-from admin import AdminUser
 from selection_tool import Selection_Tool
-from about import About
+
 
 
 ###### Main function run() ######
@@ -34,18 +33,9 @@ def main():
         html_code = '<p style="display:inline;">Total Resume Scanned till now: </p> <a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=8423204&style=0006&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter" border="0" /></a>'
         st.markdown(html_code, unsafe_allow_html=True)
         
-    elif selected=='Selection-Tool':
+    else:
         Selection_Tool()
 
-    ###### Code for About Page  ######
-        
-    elif selected == 'About':
-        About()
-
-    ###### Code for Admin Side ######
-        
-    else:
-        AdminUser()
 
     
         

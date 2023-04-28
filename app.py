@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 ###### Importing Required User-Defined Modules ######
 
 from user import NormalUser
-from selection_tool import Selection_Tool
+
 
 
 
@@ -37,7 +37,7 @@ def main():
         st.markdown(html_code, unsafe_allow_html=True)
         
     else:
-        Selection_Tool()
+        pass
 
 
     

@@ -18,7 +18,7 @@ def main():
     
     selected=option_menu(
         menu_title="NETSPIRE ANALYSER",
-        options = ["Resume","Selection-Tool"],
+        options = ["Resume"],
         icons=["file-earmark-break","person-bounding-box","person-workspace","gear"],
         menu_icon="emoji-laughing",
         default_index=0,
